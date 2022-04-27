@@ -1,0 +1,33 @@
+  .alert-enter{
+      opacity: 0;
+      transform: scale(0.8);
+  }
+  .alert-enter-active{
+      opacity: 1;
+      transform: scale(1);
+      transition: all .3s ease;
+  }
+  .alert-exit{
+      opacity: 1;
+      transform: translateY(0);
+  }
+  .alert-exit-active{
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all .2s ease;
+  }
+
+  .bgalert-enter{
+    opacity: 0;
+  }
+  .bgalert-enter-active{
+    opacity: 1;
+    transition: .3s all ease;
+  }
+  .bgalert-exit{
+    opacity: 1;
+  }
+  .bgalert-exit-active{
+    opacity: 0;
+    transition: .3s all ease;
+  }
